@@ -110,7 +110,7 @@ client = commands.Bot(command_prefix='!')
 load_dotenv('config.env')
 
 _2captcha_key = 'cb319d881ccd6998c30ae4a94c9cc666'
-bot_token = 'bot token here'
+bot_token = 'OTQ0MjA3NTIzNjg5NDA2NDY4.Yg-PyA.1m3wINUzcbNmFIXpihvwysXM9wU'
 
 
 @client.event
