@@ -1,1 +1,1 @@
-python chegg_bot_answer.py
+python3 chegg_bot_answer.py
