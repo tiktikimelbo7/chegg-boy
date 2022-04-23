@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from dotenv import load_dotenv
 
 # chrome_options.add_experimental_option('debuggerAddress','127.0.0.1:any-port-you-want') #set port
 from selenium.webdriver.common.by import By
@@ -106,8 +107,10 @@ request_queue = []
 flag = False
 client = commands.Bot(command_prefix='!')
 
+load_dotenv('config.env')
+
 _2captcha_key = 'cb319d881ccd6998c30ae4a94c9cc666'
-bot_token = 'OTQ0MjA3NTIzNjg5NDA2NDY4.Yg-PyA.GtrtiawmAya82W-TAJCxXh-38pM'
+bot_token = getConfig('BOT_TOKEN')
 
 
 @client.event
