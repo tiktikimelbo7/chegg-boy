@@ -106,7 +106,7 @@ except FileExistsError:
 request_queue = []
 flag = False
 client = commands.Bot(command_prefix='!')
-_2captcha_key = 'cb319d881ccd6998c30ae4a94c9cc666'
+_2captcha_key = 'be21d7370a67de768ba0e012013cfd35'
 bot_token = getConfig('TOKEN')
 
 
