@@ -107,7 +107,7 @@ flag = False
 client = commands.Bot(command_prefix='!')
 
 _2captcha_key = 'cb319d881ccd6998c30ae4a94c9cc666'
-bot_token = 'NjUxNzk4MDM0Mzc5NzAyMjgz.XfarEA.KbHfalMvK13ZIiwaXeeW1lBK3sc'
+bot_token = 'OTQ0MjA3NTIzNjg5NDA2NDY4.Yg-PyA.GtrtiawmAya82W-TAJCxXh-38pM'
 
 
 @client.event
